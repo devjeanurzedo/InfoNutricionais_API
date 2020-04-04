@@ -1,0 +1,29 @@
+{
+  "name": "InfoNutricionais_API",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/devjeanurzedo/InfoNutricionais_API.git",
+  "author": "devjeanurzedo <Maria@1231>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "dev.debug": "nodemon --inspect src/server.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  },
+  "devDependecies": {
+    "eslint": "^6.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^2.0.2",
+    "prettier": "^2.0.2",
+    "sucrase": "^3.13.0"
+  }
+}
